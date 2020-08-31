@@ -1,6 +1,6 @@
 var values = ["often":10,"medium":1000,"rare":10000"];
 var crashrarity
-var crashSound = new Audio("Nintendo Wii - The Sound of Death.mp3")
+var crashSound = new Audio("https://github.com/EventCubeMap/crashcript/blob/master/Nintendo%20Wii%20-%20The%20Sound%20of%20Death.mp3")
 function crash(rarity) {
     function getCrashRarity() {
         if (rarity == "often") {
